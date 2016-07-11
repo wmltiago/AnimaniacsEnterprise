@@ -1,0 +1,45 @@
+div#x {
+	border-bottom: 1px #FFFAFA solid; 
+	height: 600px;                   
+	
+	background: url("../imagens/bck.jpg" ) no-repeat;
+	
+	margin-bottom: -1px;
+	background-size: cover;   /* faz com que a imagem de background acompanhe o zoom da pagina*/
+}
+
+div#y {
+	border-bottom: 1px #FFFAFA solid; 
+	height: 600px;              /*largura da div da promoção*/     
+	
+	background:#000000;        /* div cor de fundo da promoção */
+	padding: 0px;
+	margin-top: -1px;
+}
+
+div#z img{
+	max-height:200px;
+	width:40%;
+	margin-left:35%;
+}
+
+div#z {
+	border-bottom: 1px #FFFAFA solid; 
+	height: 745px;              /*largura da div da descrição*/     
+	
+	background:url("../imagens/bck2.png") no-repeat;         /* "url("../imagens/green.jpg");" div cor de fundo da descrição */
+	padding: 0px;
+	margin-top: -1px;
+	background-size: cover;
+}
+ div#z h1{
+	 margin-left:2%;
+	 color:#ffffff;
+ }
+ 
+ div#z h3{
+	 color:#ffffff;
+	 margin-left:50%;
+	 
+ }
+	

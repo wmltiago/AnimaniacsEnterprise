@@ -1,0 +1,18 @@
+body{
+	background-color: #FF4500;
+	height: 100vh; overflow-x:hidden; margin: 0; padding: 0;  /*"overflow: hidden;" para n rolar para baixo */
+}
+
+div#txt_entre_xz h1{
+	font-size: 15pt;
+	color:#ffffff;
+	
+	
+}
+
+div#txt_entre_xz h2{
+	font-size:12pt;
+	color:#ffffff;
+	padding:0px;
+	
+}
