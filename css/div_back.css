@@ -17,20 +17,21 @@ div#y {
 	margin-top: -1px;
 }
 
-div#z img{
+/* div#z img{
 	max-height:200px;
 	width:40%;
 	margin-left:35%;
-}
+} */
 
 div#z {
 	border-bottom: 1px #FFFAFA solid; 
-	height: 745px;              /*largura da div da descrição*/     
+	height: 699px;              /*largura da div da descrição*/     
 	
-	background:url("../imagens/bck2.png") no-repeat;         /* "url("../imagens/green.jpg");" div cor de fundo da descrição */
+	background-color:#ffffff;                                                 /*url("../imagens/bck2.png") no-repeat; " div cor de fundo da descrição */
 	padding: 0px;
 	margin-top: -1px;
 	background-size: cover;
+	
 }
  div#z h1{
 	 margin-left:2%;
@@ -42,4 +43,37 @@ div#z {
 	 margin-left:50%;
 	 
  }
+ 
+div#z1{
+ border:;
+ width:1400px;
+ height:500px;
+ margin-top:0px;
+ background-color:#ffffff;
+
+ padding: 150px;
+ padding-left:50px;
+}
+
+
+
+div#img1{
+margin-top:100px;
+height: 407px;
+padding-left:40px;
+
+   
+}
+
+div#img2{
+float: left;
+margin-left: px;
+margin-right: 80px;
+
+}
+
+
+
+ 
+ 
 	
