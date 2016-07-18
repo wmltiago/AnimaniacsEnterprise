@@ -23,6 +23,14 @@ com um espaço um pouco amior que a imagem, ou mexendo no padding das imagens.
 
 -Montar a pág "galeria", "suporte".
 
+-DEFINIR A LOGO DO SITE (QUEM FOR BOM EM PS SE PRONUNCIE).
+
+-Re-fazer o diagrama de ER.
+
+-Projeto das tabelas do BD.
+
+
+
 
 
 
