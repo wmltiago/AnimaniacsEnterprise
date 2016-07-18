@@ -64,7 +64,7 @@
 
         #cssmenu ul ul li:last-child > a {
           border-radius: 0 0 3px 3px;
-          box-shadow: 0 1px 0 #000000;  /*cor da barra fina do fundo do sub-menu*/
+          box-shadow: 0 1px 0 #fff;  /*cor da barra fina do fundo do sub-menu*/
 }
         #cssmenu ul ul li:last-child:hover > a { border-radius: 0 0 0 3px; }
 
