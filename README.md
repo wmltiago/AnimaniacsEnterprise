@@ -5,7 +5,7 @@ Grupo: Tiago Borges, Marcelo Romão e Luiz Mendonça.
 
 #FF
 
--Criar um css só para página "membros".
+-Criar um css só para página "membros".  -FEITO
 
 -Organizar as cores das letras no css pra página "Horários".
 
