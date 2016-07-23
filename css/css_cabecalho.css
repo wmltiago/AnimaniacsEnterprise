@@ -1,10 +1,10 @@
 ﻿
 div#cabecalho {
 	border-bottom: 1px #FFFAFA solid; /* borda do topo do cabeçalho, sequencia (espessura da borda, cor da borda, tipo da borda) */
-	height: 170px;                   /* Definindo a altura do cabeçalho*/
+	height: 185px;                   /* Definindo a altura do cabeçalho*/
 	                                          /*background: url("letraEspelho2.png") no-repeat 0px 50px; /*Usando uma imagem como fundo para o cabeçalho, na sequencia vem o "no-repeat"  para a imagem n ficar repetindo por todo cabeçalho, deslocamento lateral "0px", deslocamente vertical "100px" */
 	background: url("../imagens/banner2.jpg") no-repeat;
-	background-size: cover;
+	background-size: cover;  /*pra acompanhar o zoom da pag*/
 	
 	
 }
@@ -73,5 +73,18 @@ margin-top:0px;
 }*/
 
 a{
-    color: #FF4500;
+    color: #FF4500;      /* COR DOS LIKNS DO CABEÇALHO*/
 }
+
+
+div#cabecalho img{
+	position:absolute;
+	margin-top:0px;
+	height:150px;
+	
+}
+
+
+
+
+
