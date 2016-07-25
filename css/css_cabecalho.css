@@ -85,6 +85,12 @@ div#cabecalho img{
 }
 
 
+div#tarja_pre_cabecalho{                /*onde vai ficar o login*/
+	height: 38px;
+	background-color:#000000;
+}
+
+
 
 
 

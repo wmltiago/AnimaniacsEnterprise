@@ -1,6 +1,6 @@
 div#x {
 	border-bottom: 1px #FFFAFA solid; 
-	height: 600px;                   
+	height: 700px;                   
 	
 	background: url("../imagens/bck.jpg" ) no-repeat;
 	
@@ -40,12 +40,11 @@ div#z {
  
  div#z h3{
 	 color:#ffffff;
-	 margin-left:50%;
-	 
+	 	 
  }
  
 div#z1{
- border:;
+ 
  width:1400px;
  height:500px;
  margin-top:0px;
@@ -61,13 +60,15 @@ div#img1{
 margin-top:100px;
 height: 407px;
 padding-left:40px;
+position:relative;
+
 
    
 }
 
 div#img2{
 float: left;
-margin-left: px;
+margin-left: 80px;
 margin-right: 80px;
 
 }

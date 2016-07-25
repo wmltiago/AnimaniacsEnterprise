@@ -1,0 +1,41 @@
+
+div#fonte_titulo h1{
+	
+	
+	color:#000000;
+	font-size:30pt;
+	
+}
+
+div#fonte_titulo h2{
+	
+	
+	color:#000000;
+	font-size:17pt;
+	padding:0px;
+	line-height:10%;     /*espaçamento entre linhas*/
+	
+	
+}
+
+div#form label{
+	color:#000000;
+	margin-top:50px;
+}
+
+div#form input{
+	
+	margin-top: 50px;
+}
+
+body{
+	
+	background-color: #ffffff;
+	height: 100vh; overflow-x:hidden; margin: 0; padding: 0;  /*"overflow: hidden;" para n rolar para baixo */
+}
+
+div#geral{
+	position:absolute;
+	margin-left: 35%;
+}
+
