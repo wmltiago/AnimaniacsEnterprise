@@ -43,7 +43,7 @@ com um espaço um pouco amior que a imagem, ou mexendo no padding das imagens. (
 
 -DEFINIR A LOGO DO SITE (QUEM FOR BOM EM PS SE PRONUNCIE). -> Feito ? -> Vai ficar essa logo msm ?
 
--Mexer na posoção dos link de login e cadastre-se.
+-Mexer na posição dos link de login e cadastre-se.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
