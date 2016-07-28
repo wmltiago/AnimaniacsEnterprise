@@ -1,0 +1,29 @@
+div#suporteCompra {
+	background-color:#BEBEBE;
+    height: 498px;                   
+	margin-bottom: -1px;
+	margin-top: 2px;
+	
+}
+
+div#suporteCompra a{
+	margin-left:-1040px;
+	color:#0000FF;
+	
+}
+
+div#suporteCompra p{
+	margin-left:40px;
+    font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suporteCompra h1{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suporteCompra ul{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+
+}

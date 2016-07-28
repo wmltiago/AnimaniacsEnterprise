@@ -1,0 +1,28 @@
+div#alteraSenha {
+	background-color:#BEBEBE;
+    height: 450px;                   
+	margin-bottom: -1px;
+	margin-top: 2px;
+	
+}
+div#alteraSenha a{
+	margin-left:-1040px;
+	color:#0000FF;
+	
+}
+
+div#alteraSenha p{
+	margin-left:40px;
+    font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#alteraSenha h1{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#alteraSenha h4{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+
+}

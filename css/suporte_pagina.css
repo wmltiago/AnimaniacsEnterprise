@@ -1,0 +1,34 @@
+div#suportePagina {
+	background-color:#BEBEBE;
+    height: 730px;                   
+	margin-bottom: -1px;
+	margin-top: 2px;
+	
+}
+
+div#suportePagina a{
+	margin-left:-1040px;
+	color:#0000FF;
+	
+}
+
+div#suportePagina p{
+	margin-left:40px;
+    font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suportePagina h1{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suportePagina h3{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+
+}
+div#suportePagina h4{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+
+}

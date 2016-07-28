@@ -1,0 +1,29 @@
+div#suporte {
+	background-color:#BEBEBE;
+    height: 400px;                   
+	margin-bottom: -1px;
+	margin-top: 2px;
+	
+}
+
+div#suporte a{
+	margin-left:40px;
+	color:#0000FF;
+	
+}
+
+div#suporte p{
+	margin-left:40px;
+    font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suporte h1{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+}
+
+div#suporte h3{
+	margin-left:20px;
+	font-family: 'Alegreya Sans','Lora', serif;
+
+}
