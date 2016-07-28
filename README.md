@@ -19,15 +19,15 @@ com um espaço um pouco amior que a imagem, ou mexendo no padding das imagens.
 
 -Dividir a página dicas em sub paginas para cada dica, para não ficar tão extensa.
 
--Organizar a página "empresa".
+-Organizar a página "empresa". -> Falta apenas o Design.
 
--Montar a pág "galeria", "suporte".
+-Montar a pág "galeria", "suporte". -> Pagina Suporte Feita.
 
--DEFINIR A LOGO DO SITE (QUEM FOR BOM EM PS SE PRONUNCIE).
+-DEFINIR A LOGO DO SITE (QUEM FOR BOM EM PS SE PRONUNCIE). -> Feito ?
 
--Re-fazer o diagrama de ER.
+-Re-fazer o diagrama de ER. -> Atualizado.
 
--Projeto das tabelas do BD.
+-Projeto das tabelas do BD. -> Atualizado.
 
 
 
