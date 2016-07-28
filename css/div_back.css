@@ -10,7 +10,7 @@ div#x {
 
 div#y {
 	border-bottom: 1px #FFFAFA solid; 
-	height: 600px;              /*largura da div da promoção*/     
+	height: 100px;              /*largura da div da promoção*/     
 	
 	background:#000000;        /* div cor de fundo da promoção */
 	padding: 0px;
@@ -25,7 +25,7 @@ div#y {
 
 div#z {
 	border-bottom: 1px #FFFAFA solid; 
-	height: 699px;              /*largura da div da descrição*/     
+	height: 600px;              /*largura da div da descrição*/     
 	
 	background-color:#ffffff;                                                 /*url("../imagens/bck2.png") no-repeat; " div cor de fundo da descrição */
 	padding: 0px;
@@ -71,6 +71,10 @@ float: left;
 margin-left: 80px;
 margin-right: 80px;
 
+}
+
+div #z2{
+	padding-top:5px;
 }
 
 

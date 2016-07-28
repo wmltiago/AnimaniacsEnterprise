@@ -74,8 +74,24 @@ margin-top:0px;
 
 a{
     color: #FF4500;      /* COR DOS LIKNS DO CABEÇALHO*/
+	
 }
 
+a.sem_linha{
+	position:relative;
+	text-decoration:none;
+	margin-left:80%;
+	padding-left:100px;
+	padding-right:70px;
+	margin-top:10px;
+	
+	
+	
+}
+
+a.sem_linha2{
+	text-decoration:none;
+}
 
 div#cabecalho img{
 	position:absolute;
@@ -87,8 +103,10 @@ div#cabecalho img{
 
 div#tarja_pre_cabecalho{                /*onde vai ficar o login*/
 	height: 38px;
-	background-color:#000000;
+	background-color:#333;
 }
+
+
 
 
 
