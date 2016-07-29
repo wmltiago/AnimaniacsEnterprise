@@ -17,7 +17,7 @@ Grupo: Tiago Borges, Marcelo Romão e Luiz Mendonça.
 
 -Dividir a página dicas em sub paginas para cada dica, para não ficar tão extensa.
 
--acrescentar no BD  alguns campus (email, sexo)
+-acrescentar no BD  alguns campus (email, sexo,senha)
 
 -Validação dos formulários.
 
