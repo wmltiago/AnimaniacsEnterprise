@@ -211,25 +211,29 @@
  <br>
  
  <div id="form">
- <form method="post" name="cadastro">
+ <form  action="../../conecta.php" method="post" name="cadastro">
 <div>
                  <fieldset><legend><b>Dados pessoais </b></legend>
 				 
 				 <table>	                 
 					 <tr>
-					 <td><div><label>Nome*</label></td><td><input type="text” name="nome" id="nome"></div><br></td>
+					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome"></div><br></td>
 					 </tr>
 					 
 					 <tr>
-	                 <td><div><label>CPF*</label></td><td><input type="text” name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> <!-- ele recebe parametros, "this" representa o objeto atual no caso substitu o comando document.getElementById("cpf"); -->
+	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=11 minlength=11></div><br></td> 
+					 </tr>
+					 
+					  <tr>
+	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>E-mail</label></td><td><input type="text" name="email" id="email" ></div><br></td>
+					 <td><div><label>E-mail*</label></td><td><input type="text" name="email" id="email" ></div><br></td>
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>RG*</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
+					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
 					 </td>
 					 
 					 <tr>
@@ -237,14 +241,22 @@
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>Endereço</label></td><td><input type="text" name="endereço" id="endereco"></div><br></td>
+					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>
 					 </tr>
 				
 				    
 					 <tr>
-					 <td><label>Sexo:</label></td><td>Masculino<input type="radio" name="sexo" id="masculino">
-													Feminino<input type="radio" name="sexo" id="feminino"></td>
+					 <td><label>Sexo:</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
+													Feminino<input type="radio" name="sexo" id="feminino" value="F"></td>
 					</tr>
+					
+					 <tr>
+	                 <td><div><label>Senha*</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+					 </tr>
+					 
+					  <tr>
+	                 <td><div><label>Confirme a senha</label></td><td><input type="password" name="rep_senha"  id="rep_senha" ></div><br></td> 
+					 </tr>
 
 				</fieldset>
 				</table>
