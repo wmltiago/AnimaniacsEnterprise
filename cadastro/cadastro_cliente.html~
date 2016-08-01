@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8">
+	<title>Cadastro</title>
+	<script type="text/javascript" src="../javascript/MascaraValidacao.js"></script> 
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_aluno.css"></link>
+	<!--<link rel="stylesheet" type="text/css" href="../css/body.css"></link> -->
+	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/rodape.css"></link> <!--Rodape-->
+	<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
+	<script type="text/javascript" src="../javascript/butoes.js"></script> <!--botoes aberto-->
+	<link rel="stylesheet" type="text/css" href="../css/carrossel.css"></link>
+	<script type="text/javascript" src="../javascript/carrossel.js"></script>
+</head>
+<body>
+
+<div id="cabecalho">
+<!--<div align="right" id="botao">	
+		<input type="text" name="login" id="login" placeholder="Login"> 			
+		<input type="password" name="password" id="pass" placeholder="Senha"> 		
+		<input type="submit" name="Login" value="Login" id="botLogin">     		
+	  
+</div> -->
+		 <!--<h5><a href="www.xxxx.com.br" >esqueceu sua senha?</a></h5> -->
+
+		<h1>AE Grupo Personal </h1>
+		<br>
+		<h2> O melhor conceito em saúde e bem estar! </h2>
+	
+		<!-- em Aberto <input type="button" value="    cadastre-se    " id="but" onclick="Windows();">  BOTÃO CADASTRO -->
+	
+</div>
+
+<div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
+  <ul>
+     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='has-sub '><a href="..\home/empresa.html">Empresa</a></li>
+     <li><a href="xxxxxx">Serviços</a>
+	 <ul>
+           <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+           <li class='has-sub '><a href='..\servicos/funcional.html'>Funcional</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\servicos/musculacao.html'>Musculação</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   
+        </ul>
+		</li>
+     <li><a href="..\dicas/dicas.html">Dicas</a></li>
+		<li><a href="">Programas</a>
+	 <ul>
+           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   
+        </ul>
+		</li>
+		<li><a href="..\equipe/menbros.html">Equipe</a></li>
+		<li><a href="..\galeria/fotos.html">Galeria</a>
+	 </li>
+	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
+  </ul>
+</div>
+
+
+<div id="geral">
+<div id="fonte_titulo">
+		<h1>Criando uma conta</h1>
+		<br>
+		<h2>Criando uma conta você poderá ter acesso a<p> contratação de nossos pacotes e personais <h2>
+
+ </div>	
+ 
+ <br>
+ 
+ <div id="form">
+ <form  action="../../conecta.php" method="post" name="cadastro">
+<div>
+                 <fieldset><legend><b>Dados pessoais </b></legend>
+				 
+				 <table>	                 
+					 <tr>
+					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome"></div><br></td>
+					 </tr>
+					 
+					 <tr>
+	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=11 minlength=11></div><br></td> 
+					 </tr>
+					 
+					  <tr>
+	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>E-mail*</label></td><td><input type="text" name="email" id="email" ></div><br></td>
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
+					 </td>
+					 
+					 <tr>
+					 <td><div><label>Telefone*</label></td><td><input type="text" name="telefone" id="telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>
+					 </tr>
+				
+				    
+					 <tr>
+					 <td><label>Sexo:</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
+													Feminino<input type="radio" name="sexo" id="feminino" value="F"></td>
+					</tr>
+					
+					 <tr>
+	                 <td><div><label>Senha*</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+					 </tr>
+					 
+					  <tr>
+	                 <td><div><label>Confirme a senha</label></td><td><input type="password" name="rep_senha"  id="rep_senha" ></div><br></td> 
+					 </tr>
+
+				</fieldset>
+				</table>
+					
+</div>
+		
+
+
+<br>
+                 <input type="submit" name="envia" value="Salvar" onclick="return validaForm();"> <!-- precisa do return junto da função para retornar o false e não deixa ele submeter -->
+                 <input type="reset" name="limpa" value="Limpar">
+				 
+ </form>
+<br>
+ </div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
