@@ -19,7 +19,7 @@ Grupo: Tiago Borges, Marcelo Romão e Luiz Mendonça.
 
 -acrescentar no BD  alguns campus (email, sexo,senha) -> FEITO.
 
--Validação dos formulários.
+
 
 -Mascaras dos formulários.
 
@@ -44,6 +44,8 @@ com um espaço um pouco amior que a imagem, ou mexendo no padding das imagens. (
 -DEFINIR A LOGO DO SITE (QUEM FOR BOM EM PS SE PRONUNCIE). -> Feito ? -> Vai ficar essa logo msm ?
 
 -Mexer na posição dos link de login e cadastre-se.
+
+-Validação dos formulários.->Falta so o de cadastro de funcionario.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
