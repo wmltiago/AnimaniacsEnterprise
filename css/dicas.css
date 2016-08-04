@@ -1,4 +1,5 @@
 div#dicas {
+	margin-top:-19px;
 	background-color:#BEBEBE;
                        
 	
@@ -13,32 +14,37 @@ div#dicas a{
 div#dicas p{
 	margin-left:40px;
     font-family: 'Alegreya Sans','Lora', serif;
-	color:#0000FF;
+	color:#FFFFFF;
 }
 
 div#dicas h1{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
-	color:#0000FF;
+	color:#FFFFFF;
 }
 
 div#dicas h3{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
-	color:#0000FF;
+	color:#FFFFFF;
 
 }
 
 div#aumentoMusc {
 	background: url("../imagens/dicasMusc.jpg" ) no-repeat;
-}
+    left:-50px;
+	}
 
 div#alimentacao {
-	background: url("../imagens/dicasAlime.jpg" ) no-repeat;
+	
+    margin-top:-13px;
+	background: url("../imagens/dicasBack.jpg" ) no-repeat;
 }
 div#suplementacao {
-	background: url("../imagens/dicasSuple.jpg" ) no-repeat;
+	margin-top:-13px;
+	background: url("../imagens/dicasBack.jpg" ) no-repeat;
 }
 div#descanso{
-	background: url("../imagens/dicasDesc.jpg" ) no-repeat;
+	margin-top:-13px;
+	background: url("../imagens/dicasBack.jpg" ) no-repeat;
 }
