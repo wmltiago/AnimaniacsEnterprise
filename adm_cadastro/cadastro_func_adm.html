@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html>
 	<head><meta charset="utf-8">
-	<title></title>
-	
+	<title>Cadastrar Funcionario</title>
+	<head><meta charset="utf-8">
+	<script type="text/javascript" src="../javascript/Mascara_adm_func.js"></script> 
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_aluno.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
 	</head>
 	<body>
-	<h1>cadastro funcionarios</h1>
+	<div id="cabecalho">
+	<h1>AE Grupo Personal </h1>
+		<br>
+		<h2> O melhor conceito em saúde e bem estar! </h2>
+	</div>
+	<div id='cssmenu'>
+  <ul>
+     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='has-sub '><a href="..\home/empresa.html">Empresa</a></li>
+		<li><a href="..\adm_cadastro/adm_aluno_cadastro.html">Administração dos Alunos</a></li>
+		<li><a href="..\adm_cadastro/cadastro_func_adm.html">Cadastro Funcionario</a></li>
+	  <li><a href="..\adm_cadastro/cadastro_serv_adm.html">Cadastro de serviço</a></li>
+  </ul>
+</div>
+
+	<center><h1>Cadastrar Funcionarios</h1></center>
+	<div id="form">
+ <form  action="#" method="post" name="cadastro_func_adm">
+<div>
+                 <fieldset><legend><b>Dados do Funcionario</b></legend>
+				 
+				 <table>	                 
+					 <tr>
+					 <td><div><label>Nome completo</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
+					 </tr>
+					 
+					 <tr>
+	                 <td><div><label>CPF</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
+					 </tr>
+					 
+					  <tr>
+	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>E-mail</label></td><td><input type="text" name="email" id="email" ></div><br></td>
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
+					 </td>
+					 
+					 <tr>
+					 <td><div><label>Telefone</label></td><td><input type="text" name="telefone" id="telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>
+					 </tr>
+				
+					
+					 <tr>
+	                 <td><div><label>Senha</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+					 </tr>
+
+				</fieldset>
+				</table>
+					
+</div>
+                 <input type="submit" name="envia" value="Salvar" >
+                 <input type="reset" name="limpa" value="Limpar">
+				 
+ </form>
+	
 	
 	</body>
 </html>

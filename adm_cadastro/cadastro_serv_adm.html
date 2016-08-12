@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head><meta charset="utf-8">
-	<title></title>
-	
+	<title>Cadastrar Serviço</title>
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_aluno.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
 	</head>
 	<body>
-	<h1>adm cadastro</h1>
+	<div id="cabecalho">
+	<h1>AE Grupo Personal </h1>
+		<br>
+		<h2> O melhor conceito em saúde e bem estar! </h2>
+	</div>
+	<div id='cssmenu'>
+  <ul>
+     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='has-sub '><a href="..\home/empresa.html">Empresa</a></li>
+		<li><a href="..\adm_cadastro/adm_aluno_cadastro.html">Administração dos Alunos</a></li>
+		<li><a href="..\adm_cadastro/cadastro_func_adm.html">Cadastro Funcionario</a></li>
+	  <li><a href="..\adm_cadastro/cadastro_serv_adm.html">Cadastro de serviço</a></li>
+  </ul>
+</div>
 	
+	<center><h1>Cadastrar Serviço</h1></center>
+	
+	<center><form>
+	<label>Nome</label><br>
+	<input type="text" name="nome" id="nome" placeholder="Nome do Serviço"><br>
+	<label>Descrição</label><br>
+	<textarea name="descricao" rows="10" cols="70">
+	Adicione Uma Descrição para o Serviço.
+	</textarea><br>
+	<label>Preços</label><br>
+	<input type="text" name="preco" id="preco" placeholder="Preço do serviço"><br>
+	<label>Horarios</label><br>
+	<textarea rows="5" cols="25">
+	Adicionar Horarios.
+	</textarea><br>
+	<input type="submit" name="envia" value="Salvar" >
+                 <input type="reset" name="limpa" value="Limpar">
+	</form></center>
+	<br>
 	</body>
 </html>
