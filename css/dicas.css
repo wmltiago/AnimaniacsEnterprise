@@ -14,19 +14,21 @@ div#dicas a{
 div#dicas p{
 	margin-left:40px;
     font-family: 'Alegreya Sans','Lora', serif;
-	color:#FFFFFF;
+	color:#FFA500;
+	letter-spacing: 1px;
+	
 }
 
 div#dicas h1{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
-	color:#FFFFFF;
+	color:#FFA500;
 }
 
 div#dicas h3{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
-	color:#FFFFFF;
+	color:#FFA500;
 
 }
 
