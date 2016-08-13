@@ -13,6 +13,8 @@
 	<script type="text/javascript" src="../javascript/butoes.js"></script> <!--botoes aberto-->
 	<link rel="stylesheet" type="text/css" href="../css/carrossel.css"></link>
 	<script type="text/javascript" src="../javascript/carrossel.js"></script>
+	
+	<script type="text/javascript" src="../javascript/validacao_cadastro_cliente.js"></script>
 </head>
 <body>
 
@@ -37,7 +39,7 @@
   <ul>
      <li class='active'><a href="..\home/index.html">Home</a></li>
      <li class='has-sub '><a href="..\home/empresa.html">Empresa</a></li>
-     <li><a href="xxxxxx">Serviços</a>
+     <li><a href="">Serviços</a>
 	 <ul>
            <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
              <!-- <ul>
@@ -105,21 +107,21 @@
 		<h2>Criando uma conta você poderá ter acesso a<p> contratação de nossos pacotes e personais <h2>
 
  </div>	
- 
+
  <br>
  
  <div id="form">
- <form  action="../../conecta.php" method="post" name="cadastro">
+ <form  action="#" method="get" name="cadastro">
 <div>
                  <fieldset><legend><b>Dados pessoais </b></legend>
 				 
 				 <table>	                 
 					 <tr>
-					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome"></div><br></td>
+					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
 					 </tr>
 					 
 					 <tr>
-	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=11 minlength=11></div><br></td> 
+	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
 					 </tr>
 					 
 					  <tr>
@@ -144,7 +146,7 @@
 				
 				    
 					 <tr>
-					 <td><label>Sexo:</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
+					 <td><label>Sexo*</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
 													Feminino<input type="radio" name="sexo" id="feminino" value="F"></td>
 					</tr>
 					
@@ -164,7 +166,7 @@
 
 
 <br>
-                 <input type="submit" name="envia" value="Salvar" onclick="return validaForm();"> <!-- precisa do return junto da função para retornar o false e não deixa ele submeter -->
+                 <input type="submit" name="envia" value="Salvar" onclick="return validaTudo2();"> <!-- precisa do return junto da função para retornar o false e não deixa ele submeter -->
                  <input type="reset" name="limpa" value="Limpar">
 				 
  </form>

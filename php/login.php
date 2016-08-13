@@ -2,7 +2,7 @@
 
 <?php
 try{
-$conexao=new PDO("mysql:host=localhost;dbname=acessoria_esportiva","root","@luno1fpe");
+$conexao=new PDO("mysql:host=localhost;dbname=acessoria_esportiva","root","password");
 }catch(PDOException $e){ "Codigo do Erro: ".$e->getCode()." Erro: ".$e->getMessage();
 }
 
@@ -21,6 +21,7 @@ $stmt->bindParam(2, $_POST['senha']);
    
 //executando
 $stmt->execute();
+
 
 
 $obj = $stmt->fetchObject(); 
