@@ -47,6 +47,7 @@ com um espaço um pouco maior que a imagem, ou mexendo no padding das imagens. (
 
 -Validação dos formulários.->Falta so o de cadastro de funcionario.->FEITO
 
+-LOGIN LOGIN LOGIN NÃO ESQUECER.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
