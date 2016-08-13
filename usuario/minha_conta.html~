@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8">
+	<title>Animaniacs Enterprise</title>
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_aluno.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
+        <script type="text/javascript" src="../javascript/validacao_cadastro_cliente.js"></script>
+	</head>
+	<body>
+	<div id="cabecalho">
+	<h1>AE Grupo Personal </h1>
+		<br>
+		<h2> O melhor conceito em saúde e bem estar! </h2>
+	</div>
+	<div id='cssmenu'>
+  <ul>
+     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='has-sub '><a href="..\home/empresa.html" target="blank">Empresa</a></li>
+     <li><a href="">Serviços</a>
+	 <ul>
+           <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
+        
+           </li>
+           <li class='has-sub '><a href='..\servicos/funcional.html'>Funcional</a>
+            
+           </li>
+		   <li class='has-sub '><a href='..\servicos/musculacao.html'>Musculação</a>
+           </li>
+		   
+        </ul>
+           </li>
+     <li><a href="..\dicas/dicas.html">Dicas</a></li>
+      <li><a href="">Programas</a>
+	 <ul>
+           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a></li>
+           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a></li>
+           <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a> </li>
+           <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
+            </li>
+             </ul>
+		</li>
+		<li><a href="..\equipe/membros.html">Equipe</a></li>
+		<li><a href="..\galeria/fotos.html">Galeria</a>
+	
+		</li>
+	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
+  </ul>
+</div>
+	<h1>Bem Vindo</h1>
+	 
+<div id="dados">
+        <center>Meus dados cadastrais</center>
+<form><fieldset>
+<label>nome</label> <input type="text" name="nome" id="nome"><br>
+<label>cpf</label> <input type="text" name="cpf" id="cpf" ><br>
+<label>Sexo*</label>Masculino<input type="radio" name="sexo" id="masculino" value="M">
+                     Feminino<input type="radio" name="sexo" id="feminino" value="F">
+<br>
+<label>data nascimento</label><input type="date" name="data_nasc" id="data_nasce"><br>
+<label>telefone</label><input type="text" name="telefone" id="telefone">
+<br>
+<br>
+<h3>Alterar Senha</h3>
+<label>senha atual*</label><input type="password" name="senha" id="senha">
+<br>
+<br> 
+<label>Nova Senha*</label><input type="password" name="nova_senha" id="senha"><br>
+<label>Comfirme a senha*</label><input type="password" name="comfirme_senha" id="rep_senha">
+<br>
+<br>
+<h3>Mudar Email</h3>
+<ul><li>Um e-mail de confirmação sera enviado para o novo e-mail.</li></ul><br>
+<label>E-mail Atual</label><input type="text" name="email" id="email" value=""><br>
+<br>
+<br>
+<label>Novo endereço de e-mail</label><input type="text" name="email" id="email"><br>
+
+
+
+</fieldset>
+<input type="submit" name="salvar" value="Salvar" onclick="return validaTudo2();"> 
+</form>
+</div>
+	</body>
+</html>
