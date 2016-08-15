@@ -22,13 +22,13 @@ $stmt->bindParam(2, $_POST['senha']);
 //executando
 $stmt->execute();
 
-header('Location: ../home/index.html');
+
 
 $obj = $stmt->fetchObject(); 
 
 if ($obj) { 
 $_SESSION['login'] = $_POST['login']; 
- 
+header('Location: ../home/index.html'); 
 } else { 
 echo '<p class="erro">Login/Senha inv&aacute;lidos</p>'; 
 } 
