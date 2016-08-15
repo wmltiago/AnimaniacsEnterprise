@@ -2,6 +2,7 @@
 <html>
 	<head><meta charset="utf-8">
 	<title>Animaniacs Enterprise</title>
+	<link rel="stylesheet" type="text/css" href="../css/alteraDados.css"></link>
 	<link rel="stylesheet" type="text/css" href="../css/cadastro_aluno.css"></link>
 	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
 	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
@@ -50,39 +51,37 @@
   </ul>
 </div>
 	<h1>Bem Vindo</h1>
-	 
+<div id="geral">	 
 <div id="dados">
-        <center>Meus dados cadastrais</center>
-<form><fieldset>
-<label>nome</label> <input type="text" name="nome" id="nome"><br>
-<label>cpf</label> <input type="text" name="cpf" id="cpf" ><br>
-<label>Sexo*</label>Masculino<input type="radio" name="sexo" id="masculino" value="M">
-                     Feminino<input type="radio" name="sexo" id="feminino" value="F">
-<br>
-<label>data nascimento</label><input type="date" name="data_nasc" id="data_nasce"><br>
-<label>telefone</label><input type="text" name="telefone" id="telefone">
-<br>
-<br>
-<h3>Alterar Senha</h3>
-<label>senha atual*</label><input type="password" name="senha" id="senha">
-<br>
-<br> 
-<label>Nova Senha*</label><input type="password" name="nova_senha" id="senha"><br>
-<label>Comfirme a senha*</label><input type="password" name="comfirme_senha" id="rep_senha">
-<br>
-<br>
-<h3>Mudar Email</h3>
-<ul><li>Um e-mail de confirmação sera enviado para o novo e-mail.</li></ul><br>
-<label>E-mail Atual</label><input type="text" name="email" id="email" value=""><br>
-<br>
-<br>
-<label>Novo endereço de e-mail</label><input type="text" name="email" id="email"><br>
+        <center><h3>Meus dados cadastrais</h3></center>
+</div>
+<div id="formulario">
 
+<form action="#" method="post" name="dados_cadastrados">
 
+<div>
+  <fieldset>
+   <label>ID</label><input type="text" name="id_usuario" id="id_usuario" value="" readonly="true"><br>
+   <label>Nome</label> <input type="text" name="nome" id="nome" value=""><br>
+   <label>CPF</label> <input type="text" name="cpf" id="cpf" value="" readonly="true"><br>
+   <label>RG</label><input type="text" name="rg" id="rg" value=""><br>
+   <label>Data Nascimento</label> <input type="date" name="data_nasc" id="data_nasce" value=""><br>
+   <label>Telefone</label> <input type="text" name="telefone" id="telefone" value=""><br>   
+   <label>Endereço</label> <input type="text" name="endereco" id="endereco" value=""> 
+   <label>Sexo</label> Masculino<input type="radio" name="sexo" id="masculino" value="M">
+                       Feminino<input type="radio" name="sexo" id="feminino" value="F">
+<br>
+	  </fieldset>
 
-</fieldset>
-<input type="submit" name="salvar" value="Salvar" onclick="return validaTudo2();"> 
+	  <br>
+
+	  </div>
+
+	  <input type="submit" name="salvar" value="Salvar" onclick="return validaTudo2();"> 
+
+<br>
 </form>
+</div>
 </div>
 	</body>
 </html>
