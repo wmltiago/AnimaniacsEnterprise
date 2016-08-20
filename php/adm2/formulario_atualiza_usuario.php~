@@ -39,7 +39,7 @@ include("conecta2.php");
 			<td><input type="text" value="<?=$row['nome'];?>" name="nome"></td>
 			<td><input type="text" value="<?=$row['telefone'];?>" name="telefone" size="14"></td>
 			<td><input type="text" value="<?=$row['cpf'];?>" name="cpf" size="14"></td>
-			<td><input type="text" value="<?=$row['rg'];?>" name="rg" size="14"></td>
+			<td><input type="text" value="<?=$row['rg'];?>" name="rg"></td>
 			<td><input type="text" value="<?=$row['endereco'];?>" name="endereco"></td>
 			<td><input type="text" value="<?=$row['data_nascimento'];?>" name="data_nascimento"></td>
 			<td><input type="text" value="<?=$row['email'];?>" name="email"></td>

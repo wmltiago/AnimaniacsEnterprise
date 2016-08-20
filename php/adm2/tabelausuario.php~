@@ -30,7 +30,7 @@ include("conecta2.php");
 				?>
 		<tr>
 			<td><?=$row['id_usuario'];?></td>
-			<td><?=$row['nome'];?></td>
+			<td><input type="text" name="nome" value="<?=$row['nome'];?>"></td>
 			<td><?=$row['telefone'];?></td>
 			<td><?=$row['cpf'];?></td>
 			<td><?=$row['rg'];?></td>
@@ -39,7 +39,7 @@ include("conecta2.php");
 			<td><?=$row['email'];?></td>
 			<td>
 				<a href="formulario_atualiza_usuario.php?idusuario=<?=$row['id_usuario'];?>">Editar</a> |
-				<a href="excluifuncionario.php?idusuario=<?=$row['id_usuario'];?>">Deletar</a>
+				<a href="exclui_funcionario.php?idusuario=<?=$row['id_usuario'];?>">Deletar</a>
 			</td>
 		</tr>
 				
