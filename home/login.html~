@@ -174,9 +174,9 @@
   </ul>
 </div>
 
-
+<!--../php/login.php-->
 <div id="login">
-<form action="../php/login/login.php" method="POST" id="legendForm">
+<form action="loggar.php" method="POST" id="legendForm">
     <legend>Login</legend>
     <input type="text" placeholder="Usuário"  name="login" required autofocus/>
     <input type="password" placeholder="Password" name="senha" required/>
