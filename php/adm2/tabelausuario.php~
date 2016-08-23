@@ -7,10 +7,205 @@ include("conecta2.php");
 <head>
 <title>Tabela Com Dados Dos Usuarios</title>
 <meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="../css/body.css"></link>
+	<link rel="stylesheet" type="text/css" href="../../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../../css/menu.css"></link>
+	
 </head>
 <body>
+<div id="tarja_pre_cabecalho" >
+<a href="../home/login.html" class="sem_linha" >Login </a>
+<a href="../cadastro/cadastro_cliente.html" target="blank" class="sem_linha2" >Cadastre-se</a>
+</div>
+	
+<div id="cabecalho">
+<!--<div align="right" id="botao">	
+	 <input type="text" name="login" id="login" placeholder="Login"> 			
+	 <input type="password" name="password" id="pass" placeholder="Senha"> 		
+	 <input type="submit" name="Login" value="Login" id="botLogin">     		
+	  
+</div> -->
+<img src="../../imagens/logo4.png">
+
+
+		<h1>AE Assessoria Esportiva </h1>
+		<br>
+		<h2> O melhor conceito em saúde e bem estar! </h2>
+	
+		<!-- em Aberto <input type="button" value="    cadastre-se    " id="but" onclick="Windows();">  BOTÃO CADASTRO -->
+	
+</div>
+
+<div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
+  <ul>
+     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='has-sub '><a href="..\home/empresa.html" target="blank">Empresa</a>
+        <!--<ul>
+           <li class='has-sub '><a href='..\[secretaria]/cadastrar_professor.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+           <li class='has-sub '><a href='..\[secretaria]/cadastrar_cursos_disciplinas.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   <li class='has-sub '><a href='..\[secretaria]/realizar_matricula.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   <li class='has-sub '><a href='..\[secretaria]/emitir_historico.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+        </ul>-->
+     </li>
+     <li><a href="">Serviços</a>
+	 <ul>
+           <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+           <li class='has-sub '><a href='..\servicos/funcional.html'>Funcional</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\servicos/musculacao.html'>Musculação</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   
+        </ul>
+		</li>
+     <li><a href="..\dicas/dicas.html">Dicas</a>
+	 <ul>
+           <!--<li class='has-sub '><a href='..\dicas/dicas.html'>Dicas</a> em aberto
+             <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>-->
+     		   
+     </ul>
+		</li>
+		<li><a href="">Programas</a>
+	 <ul>
+           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>-->
+           </li>
+		   
+        </ul>
+		</li>
+		<li><a href="..\equipe/membros.html">Equipe</a>
+	<!-- <ul>
+           <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
+              <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+           <li class='has-sub '><a href='..\[professor]/registrar_notas.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   <li class='has-sub '><a href='..\[professor]/registrar_projeto_pesquisa.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   
+        </ul>-->
+		</li>
+		<li><a href="..\galeria/fotos.html">Galeria</a>
+	 <!--<ul>
+           <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+           <li class='has-sub '><a href='..\[professor]/registrar_notas.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   <li class='has-sub '><a href='..\[professor]/registrar_projeto_pesquisa.html'>xxxxxxxxxx</a>
+             <!-- <ul>
+                 <li><a href='#'>Sub Item</a></li>
+                 <li><a href='#'>Sub Item</a></li>
+              </ul>
+           </li>
+		   
+        </ul>-->
+		</li>
+	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
+  </ul>
+</div>
+
+<br>
+<h2>Pesquisar usuario!</h2>
+<form name="frmPesq" action="tabelausuario.php" method="POST">
+<table width="350" bgcolor="#888">
+	<tr>
+		<td>	
+			<input type="text" name="txtPesq" value="" size="40"/>
+		</td>
+		<td colspan="2">
+			<input type="submit" name="btnBusca" value="Buscar"/>
+		</td>
+	</tr>
+</table>
+</form>
+
+
+
+
+
+
+
+<br>
+
 <h2> Lista De Usuarios</h2>
-	<table border="1px cellpadding="5px" cellspacing="0">
+	<table border="1px" bgcolor="#D3D3D3" cellpadding="5px" cellspacing="0">
 		<tr>
 			<th>ID</th>
 			<th>Nome Usuario</th>
@@ -23,14 +218,22 @@ include("conecta2.php");
 			<th>Ações</th>
 		</th>
 		<?php
+			if(isset($_POST['txtPesq'])){
+			$pesq = $_POST['txtPesq'];
+		$stmt=$conexao->prepare("SELECT * FROM usuario WHERE nome LIKE '%".$pesq."%'");
+				$stmt->execute();
+				$resultado= $stmt->fetchAll();
+
+}else{
 		$stmt=$conexao->prepare("SELECT * FROM usuario ORDER BY id_usuario ASC");
 				$stmt->execute();
 				$resultado= $stmt->fetchAll();
+}
 				foreach($resultado as $row){
 				?>
 		<tr>
 			<td><?=$row['id_usuario'];?></td>
-			<td><input type="text" name="nome" value="<?=$row['nome'];?>"></td>
+			<td><?=$row['nome'];?></td>
 			<td><?=$row['telefone'];?></td>
 			<td><?=$row['cpf'];?></td>
 			<td><?=$row['rg'];?></td>
@@ -45,6 +248,7 @@ include("conecta2.php");
 				
 			<?php
 			}
+				
 			?>
 	</table>
 </body>
