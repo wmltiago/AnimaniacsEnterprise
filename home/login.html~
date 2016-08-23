@@ -95,35 +95,7 @@
      		   
      </ul>
 		</li>
-		<li><a href="">Programas</a>
-	 <ul>
-           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   
-        </ul>
-		</li>
+		
 		<li><a href="..\equipe/membros.html">Equipe</a>
 	<!-- <ul>
            <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
@@ -176,7 +148,7 @@
 
 <!--../php/login.php-->
 <div id="login">
-<form action="loggar.php" method="POST" id="legendForm">
+<form action="sessao.php" method="POST" id="legendForm">
     <legend>Login</legend>
     <input type="text" placeholder="Usuário"  name="login" required autofocus/>
     <input type="password" placeholder="Password" name="senha" required/>

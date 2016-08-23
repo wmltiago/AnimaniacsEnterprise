@@ -1,35 +1,29 @@
-
-<html>
-<head>
+<!DOCTYPE html>
 <head><meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
-<link rel="stylesheet" type="text/css" href="../css/login.css"></link>
-<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
-<title>Login</title>
+	<title>Alterar Minha Senha</title>
+	<link rel="stylesheet" type="text/css" href="../css/suporte_senha.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/body.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/div_back.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/promocao.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/rodape.css"></link> <!--Rodape-->
+	<link rel="stylesheet" type="text/css" href="../css/css_cabecalho.css"></link>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"></link>
+	<script type="text/javascript" src="../javascript/butoes.js"></script> <!--botoes aberto-->
+	<link rel="stylesheet" type="text/css" href="../css/carrossel.css"></link>
+	<script type="text/javascript" src="../javascript/carrossel.js"></script>
 </head>
-
 <body>
-<div id="cabecalho">
-    <!--
-<div align="right" id="botao">	
-	 <input type="text" name="login" id="login" placeholder="Login"> 			
-	 <input type="password" name="password" id="pass" placeholder="Senha"> 		
-	 <input type="submit" name="Login" value="Login" id="botLogin">     		
-	  
-</div>
-   
-<img src="../imagens/logo1.jpg">
-<h5><a href="www.xxxx.com.br" >esqueceu sua senha?</a></h5>
-<h5><a href="../cadastro/cadastro_aluno.html" target="blank" >Cadastre-se</a></h5> -->
 
-		<h1>AE Assessoria Esportiva </h1>
+<div id="cabecalho">
+
+
+		<h1>AE Grupo Personal </h1>
 		<br>
 		<h2> O melhor conceito em saúde e bem estar! </h2>
 	
 		<!-- em Aberto <input type="button" value="    cadastre-se    " id="but" onclick="Windows();">  BOTÃO CADASTRO -->
 	
 </div>
-
 <div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
   <ul>
      <li class='active'><a href="..\home/index.html">Home</a></li>
@@ -145,22 +139,36 @@
 	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
   </ul>
 </div>
+<div id="alteraSenha">
+<br>
+	<h1>Alterar Minha Senha.</h1>
+	 
+	<h4>Não anotou a senha e acabou esquecendo, né?
+   	Solicitar uma nova senha de acesso a conta <b>AE</b> é muito fácil, basta seguir o seguinte procedimento:</h4>
 
-<!--../php/login.php-->
-<div id="login">
-<form action="sessao.php" method="POST" id="legendForm">
-    <legend>Login</legend>
-    <input type="text" placeholder="Usuário"  name="login" value="" required autofocus/>
-    <input type="password" placeholder="Password" name="senha" value="" required/>
-    <button type="submit" name="entrar" >Login</button>
-</form>
-<center>
-<h3><a href="www.xxxx.com.br" >esqueceu sua senha?</a></h3>
-<h3><a href="../cadastro/cadastro_cliente.html" target="blank" >Cadastre-se</a></h3>
-</center>
+<p>
+Entre em Contato com o Suporte	
+<br>
+Insira o e-mail de cadastro e clique em enviar;
+<br>
+Você receberá uma mensagem em seu e-mail de cadastro contendo um link para cadastrar uma nova senha;
+<br>
+Basta você cadastrar um nova senha contendo letras maiúsculas, minúsculas, números e caracteres especiais.
+Sua senha deve conter no mínimo 8 e no máximo 16 caracteres.
+<br>
+Pronto!  
+Sua senha foi cadastrada com sucesso em nosso sistema.
+</p>
+<br>
+<p>topicos</P>
+    <h5><a href="../suporte/alterar_senha.html" >esqueceu sua senha?</a></h5>
+	<h5><a href="../suporte/pagina_carrega.html">Pagina não carrega Quando estou criando a conta</a></h5>
+	<h5><a href="../suporte/compra_loja.html">Como comprar</a></h5>
+
+    
+	
 </div>
-
-
-</body>
-
+	
+	
+	</body>
 </html>

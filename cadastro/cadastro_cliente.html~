@@ -62,36 +62,8 @@
 		   
         </ul>
 		</li>
-     <li><a href="..\dicas/dicas.html">Dicas</a></li>
-		<li><a href="">Programas</a>
-	 <ul>
-           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   
-        </ul>
-		</li>
+             <li><a href="..\dicas/dicas.html">Dicas</a></li>
+		
 		<li><a href="..\equipe/menbros.html">Equipe</a></li>
 		<li><a href="..\galeria/fotos.html">Galeria</a>
 	 </li>
@@ -149,7 +121,11 @@
 					 <td><label>Sexo*</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
 													Feminino<input type="radio" name="sexo" id="feminino" value="F"></td>
 					</tr>
-					
+
+                                         <tr>
+					 <td><div><label>Login</label></td><td><input type="text" name="login" id="login"></div><br></td>
+					 </tr>					
+
 					 <tr>
 	                 <td><div><label>Senha*</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
 					 </tr>

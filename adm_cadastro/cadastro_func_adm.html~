@@ -28,7 +28,7 @@
 
 	<center><h1>Cadastrar Funcionarios</h1></center>
 	<div id="form">
- <form  action="../php/cadastroFuncionario.php" method="post" name="cadastro_func_adm">
+ <form  action="#" method="post" name="cadastro_func_adm">
 <div>
                  <fieldset><legend><b>Dados do Funcionario</b></legend>
 				 
