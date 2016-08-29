@@ -33,7 +33,9 @@ $login = $_SESSION['login'];
 
 
 ?>
-<a href='sair.php'>Cadastre-se</a>
+<div id="link">
+<a href='sair.php'>Sair</a>
+</div>
 <?php
 
 }else{
