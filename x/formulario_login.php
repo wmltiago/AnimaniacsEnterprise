@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<form action="recebe_login.php" method="POST">
+	<form action="recebe_login2.php" method="POST">
 		<div align="center">
 			Login:<input type="text" name="login" id="login"><br>
 			Senha:<input type="password" name="senha" id="senha"><br><br>

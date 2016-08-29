@@ -148,10 +148,10 @@
 
 <!--../php/login.php-->
 <div id="login">
-<form action="sessao.php" method="POST" id="legendForm">
+<form action="recebe_login2" method="POST" id="legendForm">
     <legend>Login</legend>
-    <input type="text" placeholder="Usuário"  name="login" required autofocus/>
-    <input type="password" placeholder="Password" name="senha" required/>
+    <input type="text" placeholder="Usuário"  name="login" value="" required autofocus/>
+    <input type="password" placeholder="Password" name="senha" value="" required/>
     <button type="submit" name="entrar" >Login</button>
 </form>
 <center>
