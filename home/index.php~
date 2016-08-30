@@ -27,13 +27,12 @@ mysql_select_db($banco) or die (mysql_error());
 <body>
 <?php
 session_start();
-	if (isset($_SESSION["login"])){ 
+	if (!isset($_SESSION["login"])){ 
 $login = $_SESSION['login'];
  echo "<center>seja bem vindo $login</center>";
 
-
 ?>
-<div id="link_sair">
+<div id="link">
 <a href='sair.php'>Sair</a>
 </div>
 <?php
@@ -53,7 +52,7 @@ $login = $_SESSION['login'];
 	
 <div id="cabecalho">
 
-<img src="../imagens/logo4.png">
+<img src="../imagens/a.png">
 
 
 		<h1>AE Assessoria Esportiva </h1>

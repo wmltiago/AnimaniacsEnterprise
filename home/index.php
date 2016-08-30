@@ -31,7 +31,6 @@ session_start();
 $login = $_SESSION['login'];
  echo "<center>seja bem vindo $login</center>";
 
-
 ?>
 <div id="link">
 <a href='sair.php'>Sair</a>
@@ -53,7 +52,7 @@ $login = $_SESSION['login'];
 	
 <div id="cabecalho">
 
-<img src="../imagens/logo4.png">
+<img src="../imagens/a.png">
 
 
 		<h1>AE Assessoria Esportiva </h1>
