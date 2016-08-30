@@ -42,7 +42,7 @@ header("Location: ../home/index.php");
 </div>
 <div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
   <ul>
-     <li class='active'><a href="..\home/index.html">Home</a></li>
+     <li class='active'><a href="..\home/index.php">Home</a></li>
      <li class='has-sub '><a href="..\home/empresa.html">Empresa</a>
      </li>
      <li><a href="">Serviços</a>
