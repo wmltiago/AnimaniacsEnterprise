@@ -1,6 +1,6 @@
 div#suporteCompra {
 	background-color:#BEBEBE;
-        height: 570px;                   
+        height: 600px;                   
 	margin-bottom: -1px;
 	margin-top: 2px;
 	

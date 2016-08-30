@@ -1,28 +1,27 @@
-div#suporteCompra {
+div#alteraSenha {
 	background-color:#BEBEBE;
-        height: 570px;                   
+        height: 575px;                   
 	margin-bottom: -1px;
-	margin-top: 2px;
+	margin-top: -2px;
 	
 }
-
-div#suporteCompra a{
+div#alteraSenha a{
 	margin-left:-1040px;
 	color:#0000FF;
 	
 }
 
-div#suporteCompra p{
+div#alteraSenha p{
 	margin-left:40px;
     font-family: 'Alegreya Sans','Lora', serif;
 }
 
-div#suporteCompra h1{
+div#alteraSenha h1{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
 }
 
-div#suporteCompra ul{
+div#alteraSenha h4{
 	margin-left:20px;
 	font-family: 'Alegreya Sans','Lora', serif;
 

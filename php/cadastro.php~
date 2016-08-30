@@ -28,7 +28,7 @@ $stmt->execute();
 
 #FIM DO IF
 
-header("Location: ../home/index.php"); #redirecionando para essa pag "index.php
+header("Location: ../home/index.html"); #redirecionando para essa pag "index.php
 
 }catch(PDOException $e){
 	echo "Houve erro na inserção.".$e->getCode()." - ".$e->getMessage();
