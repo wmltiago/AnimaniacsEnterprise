@@ -2,7 +2,7 @@
 session_start();
 	if (isset($_SESSION["login"])){ 
 $login = $_SESSION['login'];
- echo "<div style='background-color:#FFF'><center>Seja bem vindo $login</center><div>";
+ echo "<div style='background-color:#FFF'><center><h3>Seja bem vindo $login</h3></center><div>";
 
 
 ?>

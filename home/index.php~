@@ -22,6 +22,7 @@ mysql_select_db($banco) or die (mysql_error());
 	<script type="text/javascript" src="../javascript/butoes.js"></script> <!--botoes aberto-->
 	<link rel="stylesheet" type="text/css" href="../css/carrossel.css"></link>
 	<script type="text/javascript" src="../javascript/carrossel.js"></script>
+	<link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-png"/>
 	
 	</head>
 <body>
