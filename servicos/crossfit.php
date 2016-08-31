@@ -16,81 +16,11 @@
 </head>
 <body>
 
-<div id="cabecalho">
+<?php
 
-		<h1>AE Grupo Personal </h1>
-		<br>
-		<h2> O melhor conceito em saúde e bem estar! </h2>
-	
-		<!-- em Aberto <input type="button" value="    cadastre-se    " id="but" onclick="Windows();">  BOTÃO CADASTRO -->
-	
-</div>
-<div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
-  <ul>
-     <li class='active'><a href="..\home/index.php">Home</a></li>
-     <li class='has-sub '><a href="..\home/empresa.html">Empresa</a>
-     </li>
-     <li><a href="">Serviços</a>
-	 <ul>
-           <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-           <li class='has-sub '><a href='..\servicos/funcional.html'>Funcional</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\servicos/musculacao.html'>Musculação</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   
-        </ul>
-		</li>
-     <li><a href="..\dicas/dicas.html">Dicas</a></li>
-		<li><a href="">Programas</a>
-	 <ul>
-           <li class='has-sub '><a href='..\programas/aum_muscular.html'>Aumento Muscular</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-           <li class='has-sub '><a href='..\programas/perd_gordura.html'>Perda de Gordura</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/idosos.html'>Idosos</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   <li class='has-sub '><a href='..\programas/pos_parto.html'>Gestantes/Pós-Parto</a>
-             <!-- <ul>
-                 <li><a href='#'>Sub Item</a></li>
-                 <li><a href='#'>Sub Item</a></li>
-              </ul>-->
-           </li>
-		   
-        </ul>
-		</li>
-		<li><a href="..\equipe/membros.html">Equipe</a>
-		</li>
-		<li><a href="..\galeria/fotos.html">Galeria</a>
-		</li>
-	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
-  </ul>
+include "../php/cabecalho_include.php";
 
-  </div>
+?>
 
     <div id="texto"><h1>CrossFit</h1>
 	

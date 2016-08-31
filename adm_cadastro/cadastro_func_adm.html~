@@ -41,7 +41,9 @@
 	                 <td><div><label>CPF</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
 					 </tr>
 					 			 
-					 
+					 <tr>
+					 <td><div><label>Telefone</label></td><td><input type="text" name="telefone" id="telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
+					 </tr>
 					 
 					 <tr>
 					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>

@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 	if (isset($_SESSION["login"])){ 
 $login = $_SESSION['login'];
  echo "<div style='background-color:#FFF'><center>Seja bem vindo $login</center><div>";
@@ -8,6 +9,8 @@ $login = $_SESSION['login'];
 ?>
 <div id="link">
 <center><a href='sair.php' style='background-color:#FFF'>Sair</a></center>
+<center><a href='../php/adm2/tabelausuario.php' style='background-color:#FFF'>ADM</a></center>
+
 </div>
 <?php
 

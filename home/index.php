@@ -97,11 +97,11 @@ sua mente preparados para você nunca mais parar de correr.</h2>
 
 <tr>
 
-<td><img src="../imagens/bck3.jpg"   hspace="100"  align="left" ></td><br>
+<td><img src="../imagens/bck3.jpg"   hspace="60"  align="left" ></td><br>
 
 <td><img src="../imagens/bck4.jpg"     hspace="20" align="center" ></td><br>
 
-<td><img src="../imagens/bck5.jpg"     hspace="100" align="right" ></td><br>
+<td><img src="../imagens/bck5.jpg"     hspace="60" align="right" ></td><br>
 
 </tr>
 </table>
