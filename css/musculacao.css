@@ -1,9 +1,10 @@
 	
 div#tudo{
-	margin-top:-19px;
+	margin-top:-115px;
 	background-color:;	
 	background: url("../imagens/dicasBack.jpg" ) no-repeat;
 	margin-bottom:-450px;
+	height:561px;
 	}
 	
 	
@@ -14,15 +15,29 @@ div#tudo p{
 	letter-spacing: 1px;
 	
 }
+
 div#titulo h1{
 font-family: 'Alegreya Sans','Lora', serif;
 color:#FFFFFF;
 }
+
+
 div#horario h1{
 font-family: 'Alegreya Sans','Lora', serif;
 color:#FFFFFF;
 }
+div#texto h1{
+font-family: 'Alegreya Sans','Lora', serif;
+color:#FFFFFF;
+}
+
+
 div#texto h2{
+font-family: 'Alegreya Sans','Lora', serif;
+color:#FFFFFF;
+}
+
+div#texto h3{
 font-family: 'Alegreya Sans','Lora', serif;
 color:#FFFFFF;
 }
