@@ -18,7 +18,7 @@ $stmt->bindValue(6,2);
 
 $stmt->execute();
 
-$stmt->debugDumpParams();
+//$stmt->debugDumpParams();
 
 if($stmt->rowCount() >0){
  echo "inserção realizada com sucesso !!!"; #msg exibida depois de enviado

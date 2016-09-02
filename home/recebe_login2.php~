@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "@luno1fpe";
+$pass = "password";
 $banco = "acessoria_esportiva";
 $conexao = mysql_connect($host, $user, $pass) or die(mysql_error());
 mysql_select_db($banco) or die (mysql_error());
@@ -25,12 +25,14 @@ function loginfail(){
 <?php
 $login = $_POST['login'];	//recebe o login
 $senha = $_POST['senha'];	//recebe a senha
+$cod_categoria = 1;
 
 $sql = mysql_query ("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or die(Mysql_error());
 
 $row = mysql_num_rows($sql);
 
-if($row > 0) {
+if($row == 1) {
+
 	session_start();
 	 $_SESSION['login'] =$_POST['login'];
 	$_SESSION['senha'] = $_POST['senha'];
@@ -40,7 +42,13 @@ if($row > 0) {
 }else{
 	echo "<center><h1>Nome de usuario ou senha invalidos! Aguarde você vai ser redirecionado!!!</h1></center>";
 	echo "<script>loginfail();</script>";
+
+
 }
+
+
+
+
 
 
 ?>

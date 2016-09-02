@@ -1,0 +1,35 @@
+<?php
+
+session_start();
+
+   include("conexao.php");
+
+
+if((isset($_POST['login'])) && (isset($_POST['senha']))){
+	$usuario = mysql_real_escape_string($conn, $_POST['login']);
+	$senha = mysql_real_escape_string($conn, $_POST['senha']);
+
+	$result_usuario = "select  * from usuario where login = '$usuario' && senha = '$senha' limit 1";
+	$resultado_usuario = mysql_query($conn, $result_usuario);
+	$resultado = mysql_fetch_assoc($resultado_usuario);
+
+if(isset($resultado)){
+	$_SESSION['login'] = $resultado['login'];
+	$_SESSION['nome'] = $resultado['nome'];
+	$_SESSION['cod_categoria'] = $resultado['cod_categoria'];
+	if($_SESSION['cod_categoria'] == "1"){
+		header("Location: ../php/adm2/tabelausuario.php");
+	}elseif($_SESSION['cod_categoria'] == "2"){
+		header("Location: empresa.html");
+	}else{
+		header("Location: index.php");
+}	
+}else{
+	$_SESSION['loginErro'] = "Usuario ou senha Invalidos";
+	header("Location: login.html");
+}
+}
+
+
+?>
+

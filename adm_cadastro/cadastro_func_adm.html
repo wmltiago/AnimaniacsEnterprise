@@ -28,42 +28,72 @@
 
 	<center><h1>Cadastrar Funcionarios</h1></center>
 	<div id="form">
- <form  action="../php/recebe_cadastroFuncionario.php" method="POST" name="cadastro_func_adm">
+ <form  action="../php/RecebeCadastroFuncionario.php" method="POST" name="cadastro">
 <div>
-                 <fieldset><legend><b>Dados do Funcionario</b></legend>
+                 <fieldset><legend><b>Dados pessoais </b></legend>
 				 
 				 <table>	                 
 					 <tr>
-					 <td><div><label>Nome completo</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
+					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
 					 </tr>
 					 
 					 <tr>
-	                 <td><div><label>CPF</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
+	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
 					 </tr>
-					 			 
 					 
+					  <tr>
+	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>E-mail*</label></td><td><input type="text" name="email" id="email" ></div><br></td>
+					 </tr>
+					 
+					 <tr>
+					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
+					 </td>
+					 
+					 <tr>
+					 <td><div><label>Telefone*</label></td><td><input type="text" name="telefone" id="telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
+					 </tr>
 					 
 					 <tr>
 					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>
 					 </tr>
 				
+				    
+					 <tr>
+					 <td><label>Sexo*</label></td><td>Masculino<input type="radio" name="sexo" id="masculino" value="M">
+													Feminino<input type="radio" name="sexo" id="feminino" value="F"></td>
+					</tr>
+
                                          <tr>
-	                                 <td><div><label>login</label></td><td><input type="text" name="login"  id="login" ></div><br></td> 
+					 <td><div><label>Login</label></td><td><input type="text" name="login" id="login" value=""></div><br></td>
 					 </tr>					
 
 					 <tr>
-	                                 <td><div><label>Senha</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+	                                 <td><div><label>Senha*</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+					 </tr>
+					 
+					 <tr>
+	                                 <td><div><label>Confirme a senha</label></td><td><input type="password" name="rep_senha"  id="rep_senha" ></div><br></td> 
 					 </tr>
 
 				</fieldset>
+
 				</table>
 					
 </div>
-                 <input type="submit" name="envia" value="Salvar" >
+		
+
+
+<br>
+                 <input type="submit" name="envia" value="Salvar" onclick="return validaTudo2();"> <!-- precisa do return junto da função para retornar o false e não deixa ele submeter -->
                  <input type="reset" name="limpa" value="Limpar">
 				 
  </form>
-	
-	
+<br>
+ </div>
+	</div>
 	</body>
 </html>

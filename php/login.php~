@@ -1,0 +1,7 @@
+<form action="../home/recebe_login2.php" method="POST" id="legendForm">
+    <legend>Login</legend>
+    <input type="text" placeholder="Usuário"  name="login" value="" required autofocus/>
+    <input type="password" placeholder="Password" name="senha" value="" required/>
+	<input type="hidden" name="cod_categoria" value="">
+    <button type="submit" name="entrar" >Login</button>
+</form>

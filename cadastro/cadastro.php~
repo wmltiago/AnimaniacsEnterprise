@@ -5,7 +5,7 @@ include("conexao.php");
 
 try{
 #COMEÇO DO IF
-$stmt = $conexao->prepare("insert into usuario (nome, telefone, cpf,rg, endereco, data_nascimento, sexo, email, senha, login, cod_categoria) values(?,?,?,?,?,?,?,?,?,?,?)");
+$stmt = $conexao-> prepare("insert into usuario (nome, telefone, cpf,rg, endereco, data_nascimento, sexo, email, senha, login, id_usuario, cod_categoria) values(?,?,?,?,?,?,?,?,?,?,?,?)");
 
 $nome=$_POST["nome"]; 
 $telefone=$_POST["telefone"]; 
@@ -18,6 +18,7 @@ $email=$_POST["email"];
 $senha=$_POST["senha"];
 $login=$_POST["login"]; 
 $cod_categoria=3;
+$id_usuario=3;
 
 $stmt->bindParam(2,$telefone);
 $stmt->bindParam(1,$nome);
@@ -29,11 +30,16 @@ $stmt->bindParam(7,$sexo);
 $stmt->bindParam(8,$email);
 $stmt->bindParam(9,$senha);
 $stmt->bindParam(10,$login);
-$stmt->bindParam(11,$cod_categoria);
+$stmt->bindValue(12,$cod_categoria);
+$stmt->bindValue(11,$id_usuario);
+
 #$stmt->bindValue(1,1);
 #$stmt->bindValue(2,"Zé Maria");
 
 $stmt->execute();
+
+
+
 
 if($stmt->rowCount() >0){
  echo "inserção realizada com sucesso !!!"; #msg exibida depois de enviado

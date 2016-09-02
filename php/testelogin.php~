@@ -1,0 +1,38 @@
+<?php
+   include("conexao.php");
+
+    $userName = isset($_POST["login"]) ? $_POST["senha"]: '0';
+    $userPass = isset($_POST["senha"]) ? $_POST["senha"]: '0';
+
+    if ($userName != '0' && $userPass != '0'){
+
+        
+        $SQL = "SELECT login, senha, cod_categoria FROM usuario WHERE login='$userName' AND senha='$userPass' limit 1";
+        $query = mysql_query($SQL);
+
+        if (mysql_num_rows($query)>0)
+        {
+            $row = mysql_fetch_array($query);
+            $_SESSION['login'] = $row['login'];     
+            $_SESSION['cod_categoria']    = $row['cod_categoria'];
+            mysql_free_result($query);
+
+            if($row['cod_categoria'] == 1){
+                header("Location: ../php/adm2/tabelausuario.php");
+            } else {
+                if($row['cod_categoria'] != 1) {
+                    header("Location: ../home/index.php");                
+                }
+            }       
+
+        } else {
+            if (isset($query)){
+                mysql_free_result($query);
+            }
+            header('location: ../home/php');      
+        }   
+
+    } else {
+        header('location: ../home/index.php');
+    }
+?>

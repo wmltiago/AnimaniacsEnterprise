@@ -1,9 +1,22 @@
+<?php
+    session_start();
+    $Usuario = isset($_SESSION["login"]) ? $_SESSION["login"]: '';
+    $Rank    = isset($_SESSION['cod_categoria'])    ? $_SESSION['cod_categoria']   : '';
 
+    if ($Usuario != '' && $Rank == 1){  
+        //AUTORIZADO
+        //AQUI ELE TA COM O Rank = 1 e logado com Usuario
+    } 
+    else 
+    {
+        //NÃO AUTORIZADO
+        echo "<script>alert(\"Area Restrita\");</scrpit>";
+        header("Location: ../../home/index.php");   
+    }
+?>
 <?php
 include("conecta2.php");
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>

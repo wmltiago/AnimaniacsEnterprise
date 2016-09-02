@@ -9,7 +9,7 @@ $login = $_SESSION['login'];
 ?>
 <div id="link">
 <center><a href='sair.php' style='background-color:#FFF'>Sair</a></center>
-<center><a href='../php/adm2/tabelausuario.php' style='background-color:#FFF'>ADM</a></center>
+
 
 </div>
 <?php
@@ -21,7 +21,7 @@ $login = $_SESSION['login'];
 
 <div id="tarja_pre_cabecalho" >
 <a href="../home/login.html" class="sem_linha" >Login </a>
-<a href="../cadastro/cadastro_cliente.html" target="blank" class="sem_linha2" >Cadastre-se</a>
+<a href="../cadastro/cadastro_cliente.php" target="blank" class="sem_linha2" >Cadastre-se</a>
 </div>
 <?php
 }
@@ -73,7 +73,7 @@ $login = $_SESSION['login'];
      </li>
      <li><a href="">Serviços</a>
 	 <ul>
-           <li class='has-sub '><a href='..\servicos/crossfit.html'>CrossFit</a>
+           <li class='has-sub '><a href='..\servicos/crossfit.php'>CrossFit</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>

@@ -17,7 +17,7 @@ $sexo=$_POST["sexo"];
 $email=$_POST["email"];
 $login=$_POST["login"];
 $senha=$_POST["senha"]; 
-$cod_categoria=3;
+$cod_categoria=2;
 
 
 $stmt->bindParam(1,$nome);
@@ -30,7 +30,7 @@ $stmt->bindParam(7,$sexo);
 $stmt->bindParam(8,$email);
 $stmt->bindParam(9,$login);
 $stmt->bindParam(10,$senha);
-$stmt->bindValue(121,$cod_categoria);
+$stmt->bindValue(11,$cod_categoria);
 
 
 #$stmt->bindValue(1,1);
