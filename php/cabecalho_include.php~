@@ -9,7 +9,7 @@ $login = $_SESSION['login'];
 ?>
 <div id="link">
 <center><a href='sair.php' style='background-color:#FFF'>Sair</a></center>
-<center><a href='../php/adm2/tabelausuario.php' style='background-color:#FFF'>ADM</a></center>
+
 
 </div>
 <?php
@@ -43,7 +43,7 @@ $login = $_SESSION['login'];
 <div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
   <ul>
      <li class='active'><a href="..\home/index.php">Home</a></li>
-     <li class='has-sub '><a href="..\home/empresa.html" target="blank">Empresa</a>
+     <li class='has-sub '><a href="..\home/empresa.php" target="blank">Empresa</a>
         <!--<ul>
            <li class='has-sub '><a href='..\[secretaria]/cadastrar_professor.html'>xxxxxxxxxx</a>
              <!-- <ul>
@@ -79,13 +79,13 @@ $login = $_SESSION['login'];
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-           <li class='has-sub '><a href='..\servicos/funcional.html'>Funcional</a>
+           <li class='has-sub '><a href='..\servicos/funcional.php'>Funcional</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-		   <li class='has-sub '><a href='..\servicos/musculacao.html'>Musculação</a>
+		   <li class='has-sub '><a href='..\servicos/musculacao.php'>Musculação</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
@@ -105,7 +105,7 @@ $login = $_SESSION['login'];
      		   
      </ul>
 		</li>
-		<li><a href="..\equipe/membros.html">Equipe</a>
+		<li><a href="..\equipe/membros.php">Equipe</a>
 	<!-- <ul>
            <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
               <ul>
@@ -128,7 +128,7 @@ $login = $_SESSION['login'];
 		   
         </ul>-->
 		</li>
-		<li><a href="..\galeria/fotos.html">Galeria</a>
+		<li><a href="..\galeria/fotos.php">Galeria</a>
 	 <!--<ul>
            <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
              <!-- <ul>
@@ -151,6 +151,6 @@ $login = $_SESSION['login'];
 		   
         </ul>-->
 		</li>
-	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
+	  <li><a href="..\suporte/suporte.php" target="_blank">Suporte</a></li>
   </ul>
 </div>

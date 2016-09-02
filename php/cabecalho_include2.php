@@ -1,31 +1,8 @@
-<?php
-session_start();
-
-	if (isset($_SESSION["login"])){ 
-$login = $_SESSION['login'];
- echo "<div style='background-color:#FFF'><center>Seja bem vindo $login</center><div>";
 
 
-?>
-<div id="link">
-<center><a href='sair.php' style='background-color:#FFF'>Sair</a></center>
 
 
-</div>
-<?php
 
-}else{
-
-?>
-
-
-<div id="tarja_pre_cabecalho" >
-<a href="../home/login.php" class="sem_linha" >Login </a>
-<a href="../cadastro/cadastro_cliente.php" target="blank" class="sem_linha2" >Cadastre-se</a>
-</div>
-<?php
-}
-?>
 	
 <div id="cabecalho">
 
