@@ -16,7 +16,7 @@ function loginOk(){
 	setTimeout("window.location='index.php'", 3000);
 }
 function loginfail(){
-	setTimeout("window.location='login.html'", 3000);
+	setTimeout("window.location='login.php'", 3000);
 }
 </script>
 </head>
