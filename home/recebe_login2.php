@@ -25,9 +25,9 @@ function loginfail(){
 <?php
 $login = $_POST['login'];	//recebe o login
 $senha = $_POST['senha'];	//recebe a senha
-$cod_categoria = $_POST['cod_categoria'];
 
-$sql = mysql_query ("SELECT * FROM usuario WHERE login = '$login', cod_categoria='$cod_categoria' AND senha = '$senha'") or die(Mysql_error());
+
+$sql = mysql_query ("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or die(Mysql_error());
 
 $row = mysql_num_rows($sql);
 
@@ -36,9 +36,11 @@ if($row == 1) {
 	session_start();
 	 $_SESSION['login'] =$_POST['login'];
 	$_SESSION['senha'] = $_POST['senha'];
-	$_SESSION['cod_categoria'];
+
+	
 		echo "<center><h1>Você foi logado com sucesso! Aguarde um instante.</h1></center>";
 		echo "<script>loginOk();</script>";
+
 
 }else{
 	echo "<center><h1>Nome de usuario ou senha invalidos! Aguarde você vai ser redirecionado!!!</h1></center>";
@@ -46,6 +48,9 @@ if($row == 1) {
 
 
 }
+
+
+	
 
 
 

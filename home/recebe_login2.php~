@@ -25,7 +25,7 @@ function loginfail(){
 <?php
 $login = $_POST['login'];	//recebe o login
 $senha = $_POST['senha'];	//recebe a senha
-$cod_categoria = 1;
+
 
 $sql = mysql_query ("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or die(Mysql_error());
 
@@ -36,8 +36,12 @@ if($row == 1) {
 	session_start();
 	 $_SESSION['login'] =$_POST['login'];
 	$_SESSION['senha'] = $_POST['senha'];
+if($_SESSION['login'] == "havana"){
+	
 		echo "<center><h1>Você foi logado com sucesso! Aguarde um instante.</h1></center>";
 		echo "<script>loginOk();</script>";
+header('Location: ../php/adm2/tabelausuario.php');
+}
 
 }else{
 	echo "<center><h1>Nome de usuario ou senha invalidos! Aguarde você vai ser redirecionado!!!</h1></center>";
@@ -45,6 +49,10 @@ if($row == 1) {
 
 
 }
+
+	
+
+	
 
 
 

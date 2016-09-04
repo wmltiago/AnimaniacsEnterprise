@@ -6,13 +6,11 @@ session_start();
 $login = $_SESSION['login'];
  echo "<div style='background-color:#FFF'><center>Seja bem vindo $login</center><div>";
 
-if($login == "adm"){
-	echo "<div style='background-color:#FFF'><center><a href='../php/adm2/tabelausuario.php'>ADM</a></center><div>";
+if($login == "havana"){
+header("Location: ../php/adm2/tabelausuario.php");
 }
+
 ?>
-
-
-
 <div id="link">
 <center><a href='sair.php' style='background-color:#FFF'>Sair</a></center>
 

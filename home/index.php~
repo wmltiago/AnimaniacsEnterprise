@@ -7,6 +7,13 @@ $conexao = mysql_connect($host, $user, $pass) or die(mysql_error());
 mysql_select_db($banco) or die (mysql_error());
 ?>
 
+<?php
+	
+if($_SESSION['login'] == "havana"){
+	header('Location: ../php/adm2/tabelausuario.php');
+}
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <head>
@@ -97,11 +104,11 @@ sua mente preparados para você nunca mais parar de correr.</h2>
 
 <tr>
 
-<td><img src="../imagens/bck3.jpg"   hspace="100"  align="left" ></td><br>
+<td><img src="../imagens/bck3.jpg"   hspace="60"  align="left" ></td><br>
 
 <td><img src="../imagens/bck4.jpg"     hspace="20" align="center" ></td><br>
 
-<td><img src="../imagens/bck5.jpg"     hspace="100" align="right" ></td><br>
+<td><img src="../imagens/bck5.jpg"     hspace="60" align="right" ></td><br>
 
 </tr>
 </table>

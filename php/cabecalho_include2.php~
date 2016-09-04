@@ -20,7 +20,7 @@
 <div id='cssmenu'>  <!-- MENU INDEX EM ABERTO-->
   <ul>
      <li class='active'><a href="..\home/index.php">Home</a></li>
-     <li class='has-sub '><a href="..\home/empresa.html" target="blank">Empresa</a>
+     <li class='has-sub '><a href="..\home/empresa.php" target="blank">Empresa</a>
         <!--<ul>
            <li class='has-sub '><a href='..\[secretaria]/cadastrar_professor.html'>xxxxxxxxxx</a>
              <!-- <ul>
@@ -128,6 +128,6 @@
 		   
         </ul>-->
 		</li>
-	  <li><a href="..\suporte/suporte.html" target="_blank">Suporte</a></li>
+	  <li><a href="..\suporte/suporte.php" target="_blank">Suporte</a></li>
   </ul>
 </div>
