@@ -1,10 +1,4 @@
-<?php
-session_start();
-	if (!isset($_SESSION["login"])){ 
-header("Location: ../home/index.php");
-}
 
-?>
 <!DOCTYPE html>
 <head><meta charset="utf-8">
 	<title>Dicas</title>
