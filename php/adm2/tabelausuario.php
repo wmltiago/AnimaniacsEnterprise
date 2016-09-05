@@ -1,7 +1,6 @@
 <?php
 session_start();
 	if ($_SESSION["login"] != "adm"){ 
-
 header("Location: ../../home/index.php");
 }
 ?>
@@ -17,6 +16,7 @@ include("conecta2.php");
 	<link rel="stylesheet" type="text/css" href="../css/body.css"></link>
 	<link rel="stylesheet" type="text/css" href="../../css/css_cabecalho.css"></link>
 	<link rel="stylesheet" type="text/css" href="../../css/menu.css"></link>
+	<link rel="stylesheet" type="text/css" href="../../css/css_adm.css"></link>
 	
 </head>
 <body>
@@ -185,7 +185,7 @@ include("conecta2.php");
 </div>
 
 <br>
-<center>
+
 <h2>Pesquisar usuario!</h2>
 
 <form name="frmPesq" action="tabelausuario.php" method="POST">
@@ -208,7 +208,7 @@ include("conecta2.php");
 
 
 <br>
-
+<div #search>
 <h2> Lista De Usuarios</h2>
 	<table border="1px" bgcolor="#D3D3D3" cellpadding="5px" cellspacing="0">
 		<tr>
@@ -228,7 +228,6 @@ include("conecta2.php");
 		$stmt=$conexao->prepare("SELECT * FROM usuario WHERE nome LIKE '%".$pesq."%'");
 				$stmt->execute();
 				$resultado= $stmt->fetchAll();
-
 }else{
 		$stmt=$conexao->prepare("SELECT * FROM usuario ORDER BY id_usuario ASC");
 				$stmt->execute();
@@ -256,6 +255,6 @@ include("conecta2.php");
 				
 			?>
 	</table>
-</center>
+</div>
 </body>
 </html>

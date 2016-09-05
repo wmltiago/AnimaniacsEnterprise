@@ -7,12 +7,7 @@ $conexao = mysql_connect($host, $user, $pass) or die(mysql_error());
 mysql_select_db($banco) or die (mysql_error());
 ?>
 
-<?php
-	
-if($_SESSION['login'] == "havana"){
-	header('Location: ../php/adm2/tabelausuario.php');
-}
-?>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -30,7 +25,7 @@ if($_SESSION['login'] == "havana"){
 	<link rel="stylesheet" type="text/css" href="../css/carrossel.css"></link>
 	<script type="text/javascript" src="../javascript/carrossel.js"></script>
 	<link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-png"/>
-	
+	@import url(http://fonts.googleapis.com/css?family=Orbitron);
 	</head>
 <body>
 

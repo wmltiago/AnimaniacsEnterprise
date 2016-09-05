@@ -13,10 +13,10 @@ mysql_select_db($banco) or die (mysql_error());
 <title> autenticando usuario</title>
 <script type="text/javascript">
 function loginOk(){
-	setTimeout("window.location='index.php'", 3000);
+	setTimeout("window.location='index.php'", 2000);
 }
 function loginfail(){
-	setTimeout("window.location='login.php'", 3000);
+	setTimeout("window.location='login.php'", 2500);
 }
 </script>
 </head>
@@ -39,11 +39,13 @@ if($row == 1) {
 
 	
 		echo "<center><h1>Você foi logado com sucesso! Aguarde um instante.</h1></center>";
+		echo "<center><h2> ヅ ツ   </h2> </center>";
 		echo "<script>loginOk();</script>";
 
 
 }else{
 	echo "<center><h1>Nome de usuario ou senha invalidos! Aguarde você vai ser redirecionado!!!</h1></center>";
+	echo "<center><h2> ¯\_(ツ)_/¯  </h2></center>";
 	echo "<script>loginfail();</script>";
 
 

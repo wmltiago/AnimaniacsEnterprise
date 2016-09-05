@@ -77,21 +77,21 @@
  <br>
  
  <div id="form">
- <form  action="../php/RecebeCadastro.php" method="POST" name="cadastro">
+ <form  action="../php/RecebeCadastroUsuario.php" method="POST" name="cadastro">
 <div>
                  <fieldset><legend><b>Dados pessoais </b></legend>
 				 
 				 <table>	                 
 					 <tr>
-					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
+					 <td><div>Nome Completo<label></label></td><td><input type="text" name="nome" placeholder="Nome completo" id="nome" value=""></div><br></td>
 					 </tr>
 					 
 					 <tr>
-	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
+	                 <td><div><label></label>CPF</td><td><input type="text" name="cpf"  id="cpf" placeholder="CPF"maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
 					 </tr>
 					 
 					  <tr>
-	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
+	                 <td><div><label></label>Data Nascimento</td><td><input type="date" name="data_nascimento" placeholder="Data Nascimento xx/xx/xxxx" id="data_nascimnto" ></div><br></td> 
 					 </tr>
 					 
 					 <tr>

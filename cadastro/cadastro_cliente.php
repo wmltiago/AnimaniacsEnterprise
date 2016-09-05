@@ -83,31 +83,31 @@
 				 
 				 <table>	                 
 					 <tr>
-					 <td><div><label>Nome completo*</label></td><td><input type="text" name="nome" id="nome" value=""></div><br></td>
+					 <td><div>Nome Completo<label></label></td><td><input type="text" name="nome" placeholder="Nome completo" id="nome" value=""></div><br></td>
 					 </tr>
 					 
 					 <tr>
-	                 <td><div><label>CPF*</label></td><td><input type="text" name="cpf"  id="cpf" maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
+	                 <td><div><label></label>CPF</td><td><input type="text" name="cpf"  id="cpf" placeholder="CPF"maxlength=14 minlength=12 onkeypress="MascaraCPF(this);"></div><br></td> 
 					 </tr>
 					 
 					  <tr>
-	                 <td><div><label>Data Nascimento</label></td><td><input type="date" name="data_nascimento"  id="data_nascimnto" ></div><br></td> 
+	                 <td><div><label></label>Data Nascimento</td><td><input type="date" name="data_nascimento" placeholder="Data Nascimento xx/xx/xxxx" id="data_nascimnto" ></div><br></td> 
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>E-mail*</label></td><td><input type="text" name="email" id="email" ></div><br></td>
+					 <td><div><label>E-mail*</label></td><td><input type="text" name="email" placeholder="Email" id="email" ></div><br></td>
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
+					 <td><div><label>RG	</label></td><td><input type="text" name="rg" id="rg" placeholder="RG" maxlength=9 minlength=7 onkeypress="MascaraRG(this);"></div><br></td>
 					 </td>
 					 
 					 <tr>
-					 <td><div><label>Telefone*</label></td><td><input type="text" name="telefone" id="telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
+					 <td><div><label>Telefone*</label></td><td><input type="text" name="telefone" id="telefone" placeholder="Telefone" maxlength=15 minlength=11 onkeypress="MascaraTelefone(this);"></div><br></td>
 					 </tr>
 					 
 					 <tr>
-					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" id="endereco"></div><br></td>
+					 <td><div><label>Endereço</label></td><td><input type="text" name="endereco" placeholder="Endereço" id="endereco"></div><br></td>
 					 </tr>
 				
 				    
@@ -117,11 +117,11 @@
 					</tr>
 
                                          <tr>
-					 <td><div><label>Login</label></td><td><input type="text" name="login" id="login" value=""></div><br></td>
+					 <td><div><label>Login</label></td><td><input type="text" name="login" id="login" placeholder="Login" value=""></div><br></td>
 					 </tr>					
 
 					 <tr>
-	                                 <td><div><label>Senha*</label></td><td><input type="password" name="senha"  id="senha" ></div><br></td> 
+	                                 <td><div><label>Senha*</label></td><td><input type="password" name="senha" placeholder="Senha" id="senha" ></div><br></td> 
 					 </tr>
 					 
 					 <tr>

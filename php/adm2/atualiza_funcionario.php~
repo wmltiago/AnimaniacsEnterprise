@@ -33,7 +33,7 @@ $stmt->execute();
 
 if($stmt->rowCount() >0){  #me mostra quantas linhas foram afetadas
 	echo "<center><h1>Atualização realizada com sucesso.</h1></center>";
-	echo "<br><center><h3><a href='tabelausuario.php'>Voltar</a></h3></center>";
+	echo "<br><center><a href='tabelausuario.php'>Voltar</a></center>";
 }else{
 	echo "Nenhuma atualização foi realizada.";
 	}

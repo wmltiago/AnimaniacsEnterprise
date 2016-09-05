@@ -1,7 +1,6 @@
 <?php
 session_start();
 	if ($_SESSION["login"] != "adm"){ 
-
 header("Location: ../../home/index.php");
 }
 ?>
@@ -85,7 +84,7 @@ include("conecta2.php");
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-		   <li class='has-sub '><a href='..\servicos/musculacao.php'>Musculação</a>
+		   <li class='has-sub '><a href='..\../servicos/musculacao.php'>Musculação</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
@@ -94,7 +93,7 @@ include("conecta2.php");
 		   
         </ul>
 		</li>
-     <li><a href="..\dicas/dicas.php">Dicas</a>
+     <li><a href="..\../dicas/dicas.php">Dicas</a>
 	 <ul>
            <!--<li class='has-sub '><a href='..\dicas/dicas.html'>Dicas</a> em aberto
              <ul>
@@ -107,25 +106,25 @@ include("conecta2.php");
 		</li>
 		<li><a href="">Programas</a>
 	 <ul>
-           <li class='has-sub '><a href='..\programas/aum_muscular.php'>Aumento Muscular</a>
+           <li class='has-sub '><a href='..\../programas/aum_muscular.php'>Aumento Muscular</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-           <li class='has-sub '><a href='..\programas/perd_gordura.php'>Perda de Gordura</a>
+           <li class='has-sub '><a href='..\../programas/perd_gordura.php'>Perda de Gordura</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-		   <li class='has-sub '><a href='..\programas/idosos.php'>Idosos</a>
+		   <li class='has-sub '><a href='..\../programas/idosos.php'>Idosos</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
               </ul>-->
            </li>
-		   <li class='has-sub '><a href='..\programas/pos_parto.php'>Gestantes/Pós-Parto</a>
+		   <li class='has-sub '><a href='..\../programas/pos_parto.php'>Gestantes/Pós-Parto</a>
              <!-- <ul>
                  <li><a href='#'>Sub Item</a></li>
                  <li><a href='#'>Sub Item</a></li>
@@ -134,7 +133,7 @@ include("conecta2.php");
 		   
         </ul>
 		</li>
-		<li><a href="..\equipe/membros.php">Equipe</a>
+		<li><a href="..\../equipe/membros.php">Equipe</a>
 	<!-- <ul>
            <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
               <ul>
@@ -157,7 +156,7 @@ include("conecta2.php");
 		   
         </ul>-->
 		</li>
-		<li><a href="..\galeria/fotos.php">Galeria</a>
+		<li><a href="..\../galeria/fotos.php">Galeria</a>
 	 <!--<ul>
            <li class='has-sub '><a href='..\[professor]/registrar_faltas.html'>xxxxxxxxxx</a>
              <!-- <ul>
@@ -180,12 +179,12 @@ include("conecta2.php");
 		   
         </ul>-->
 		</li>
-	  <li><a href="..\suporte/suporte.php" target="_blank">Suporte</a></li>
+	  <li><a href="..\../suporte/suporte.php" target="_blank">Suporte</a></li>
   </ul>
 </div>
 
 <br>
-<center>
+
 <h2>Pesquisar usuario!</h2>
 
 <form name="frmPesq" action="tabelausuario.php" method="POST">
@@ -228,7 +227,6 @@ include("conecta2.php");
 		$stmt=$conexao->prepare("SELECT * FROM usuario WHERE nome LIKE '%".$pesq."%'");
 				$stmt->execute();
 				$resultado= $stmt->fetchAll();
-
 }else{
 		$stmt=$conexao->prepare("SELECT * FROM usuario ORDER BY id_usuario ASC");
 				$stmt->execute();
@@ -256,6 +254,6 @@ include("conecta2.php");
 				
 			?>
 	</table>
-</center>
+
 </body>
 </html>
