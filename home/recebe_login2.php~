@@ -39,7 +39,7 @@ if($row == 1) {
 
 	
 		echo "<center><h1>Você foi logado com sucesso! Aguarde um instante.</h1></center>";
-		echo "<center><h2> ヅ ツ  ﾂ  ｯ </h2> </center>";
+		echo "<center><h2> ヅ ツ   </h2> </center>";
 		echo "<script>loginOk();</script>";
 
 
